@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container py-5">
+        
+        <div class="w-75 p-4 m-auto text-center form-container">
+            <div class="header-text-icon mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-right-to-bracket fa-2x"></i>
+            </div>
+
+            <h2 class="text-white my-3">Welcome!</h2>
+            <p class="text-white fs-5 sign-P">Sign in to your account.</p>
+
+            <div class="mb-3">
+                <input type="text" class="form-control bg-transparent text-white" id="loginEmail" placeholder="Enter you email">
+            </div>
+
+            <div class="mb-3">
+                <input type="password" class="form-control bg-transparent text-white mb-5" id="loginPassword" placeholder="Enter your password">
+            </div>
+            
+            <p class="text-warning d-none" id="fillMsg">All inputs are required</p>
+            <p class="text-warning d-none" id="wrongMsg">Your email or password is incorrect</p>
+            <a class="btn btn-danger w-100 mb-3 text-decoration-none" id="loginBtn" onclick="login()">Login</a>
+            <p class="text-white">Don't have an account? <a href="signUp.html" class="text-white text-decoration-none"><span>Sign Up</span></a></p>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

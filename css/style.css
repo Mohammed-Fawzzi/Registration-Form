@@ -1,0 +1,72 @@
+body
+{
+    height: 75vh;
+    background-image: url(../imgs/login.jpg);
+    background-size: cover;
+}
+.form-container
+{
+    background: linear-gradient(100deg,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(13px);
+    border:1px solid rgba(255, 255, 255, 0.30);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input::placeholder
+{
+    color:  rgba(255, 255, 255,0.6) !important;
+}
+.form-control:focus {
+    border: 2px solid rgba(238, 26, 26, 0.65) ;
+    box-shadow: none;
+}
+.navbar
+{
+    background: linear-gradient(100deg,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) !important;
+    backdrop-filter: blur(100px) !important;
+}
+.group {
+    background: linear-gradient(100deg,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(13px);
+    border:1px solid rgba(255, 255, 255, 0.30);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.header-text-icon {
+    width: 55px;
+    height: 55px;
+    border: 2px solid #ee1a1a;
+    background-color: transparent;
+}
+.header-text-icon i{
+    color: #fff;
+}
+.sign-P {
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 100;
+    font-size: 17px;
+}
+#usernameAlert, #userEmailAlert, #userPasswordAlert
+{
+    font-size: .8rem;
+}
+.nav-link {
+    padding: 5px;
+    border: 1px solid #DC3545;
+    border-radius: 3px;
+}
+.btn:hover {
+    background-color: #ee071e !important;
+    border-color: #ee071e;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+a span:hover {
+    color: #ff0000;
+}
+.text-success {
+    color: #14e483 !important;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="w-75 p-4 m-auto text-center form-container">
+            
+            <div class="header-text-icon mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-user fa-2x"></i>
+            </div>
+            <h2 class="text-white my-2">Create Account!</h2>
+            <p class="text-white fs-5 sign-P">Sign up if you don't have an account.</p>
+
+            <div class="mb-3 ">
+
+                <input type="text" class="form-control bg-transparent text-white" id="usernameInput" placeholder="Enter your name">
+                <p id="usernameAlert" class="d-none text-warning my-1">Include at least 3 letters starting with capital, second name is optional</p>
+            </div>
+            <div class="mb-3 ">
+
+                <input type="email" class="form-control bg-transparent text-white" id="userEmailInput" placeholder="Enter your email">
+                <p id="userEmailAlert" class="d-none text-warning my-1">name@example.com</p>
+
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control bg-transparent text-white mb-3" id="userPasswordInput" placeholder="Enter your password">
+                <p id="userPasswordAlert" class="d-none text-warning m-0">You must strength your password, from 5 to 15 characters</p>
+
+            </div>
+            <p class="text-success d-none" id="confirmMsg">Success</p>
+            <p class="text-warning d-none mb-0" id="accountExistMsg">This account is exist ! Try another one.</p>
+            <a id="signupBtn" onclick="signUp()" class="btn btn-danger w-100 mb-3 mt-4 text-decoration-none">Sign Up</a>
+            <p class="text-white d-block">Already have an account ? <a href="index.html" class="text-white text-decoration-none"><span>Sign In</span></a></p>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
