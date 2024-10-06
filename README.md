@@ -31,4 +31,4 @@ This is a simple registration form application that includes registration, login
 
 ## Live Demo
 
-Check out the live demo [here](https://mohammed-fawzzi.github.io/RegistrationForm/).
+Check out the live demo [here](https://mohammed-fawzzi.github.io/Registration-Form/).
